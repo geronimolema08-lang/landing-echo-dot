@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Echo Dot en la cocina">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f6f8"/><stop offset="1" stop-color="#e3e8ed"/>
+    </linearGradient>
+    <linearGradient id="cled" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1479d4"/><stop offset="1" stop-color="#00caff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="480" fill="url(#cbg)"/>
+  <!-- azulejos -->
+  <g stroke="#c8cfd8" stroke-width="3">
+    <path d="M0 90 h600"/><path d="M0 180 h600"/><path d="M120 0 v180"/><path d="M260 0 v180"/><path d="M400 0 v180"/><path d="M540 0 v180"/>
+  </g>
+  <!-- encimera -->
+  <rect x="0" y="330" width="600" height="18" fill="#3d434d"/>
+  <rect x="0" y="348" width="600" height="132" fill="#cdd4dc"/>
+  <!-- cacerola -->
+  <g stroke="#3d434d" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M92 250 h124 v56 q0 26 -26 26 h-72 q-26 0 -26 -26 z"/>
+    <path d="M84 250 h140"/>
+    <path d="M84 274 h-26"/><path d="M236 274 h26"/>
+  </g>
+  <g stroke="#3d434d" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.7">
+    <path d="M126 224 q10 -16 0 -32"/><path d="M154 218 q10 -16 0 -32"/><path d="M182 224 q10 -16 0 -32"/>
+  </g>
+  <!-- echo dot sobre la encimera -->
+  <ellipse cx="440" cy="314" rx="44" ry="16" fill="#16181d"/>
+  <path d="M396 286 v24 a44 16 0 0 0 88 0 v-24 z" fill="#16181d"/>
+  <ellipse cx="440" cy="286" rx="44" ry="16" fill="#262a31"/>
+  <ellipse cx="440" cy="312" rx="34" ry="10" fill="none" stroke="url(#cled)" stroke-width="5"/>
+  <!-- temporizador -->
+  <g stroke="#3d434d" stroke-width="5" fill="none">
+    <circle cx="300" cy="150" r="46"/>
+    <path d="M300 150 v-28" stroke-linecap="round"/>
+    <path d="M300 150 l20 14" stroke-linecap="round"/>
+  </g>
+</svg>

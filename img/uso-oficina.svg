@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" role="img" aria-label="Echo Dot en el espacio de trabajo">
+  <defs>
+    <linearGradient id="obg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef1f5"/><stop offset="1" stop-color="#dde3ea"/>
+    </linearGradient>
+    <linearGradient id="oled" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1479d4"/><stop offset="1" stop-color="#00caff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="480" fill="url(#obg)"/>
+  <!-- estantería -->
+  <g stroke="#3d434d" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M60 60 h180"/><path d="M60 140 h180"/>
+    <path d="M78 60 v-40"/><path d="M96 60 v-40"/><path d="M120 60 v-40"/>
+    <path d="M78 140 v-46"/><path d="M100 140 v-46"/><path d="M124 140 v-46"/>
+  </g>
+  <!-- escritorio -->
+  <g stroke="#3d434d" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M40 340 h520"/>
+    <path d="M84 340 v90"/><path d="M516 340 v90"/>
+    <!-- portátil -->
+    <path d="M240 340 l24 -96 h132 l24 96 z"/>
+    <path d="M264 250 h132"/>
+    <path d="M228 340 h204"/>
+  </g>
+  <!-- echo dot -->
+  <ellipse cx="140" cy="322" rx="40" ry="15" fill="#16181d"/>
+  <path d="M100 296 v22 a40 15 0 0 0 80 0 v-22 z" fill="#16181d"/>
+  <ellipse cx="140" cy="296" rx="40" ry="15" fill="#262a31"/>
+  <ellipse cx="140" cy="320" rx="31" ry="9" fill="none" stroke="url(#oled)" stroke-width="5"/>
+  <!-- planta -->
+  <g stroke="#3d434d" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M470 340 l10 -46 h44 l10 46 z"/>
+    <path d="M502 294 v-38"/>
+    <path d="M502 276 q-26 -6 -30 -34 q28 2 30 34"/>
+    <path d="M502 264 q26 -8 30 -34 q-28 2 -30 34"/>
+  </g>
+</svg>

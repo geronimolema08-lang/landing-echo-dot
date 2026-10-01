@@ -1,0 +1,11 @@
+{
+  "name": "landing-echo-dot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "precio": "node update-price.mjs",
+    "precio-desde": "node update-price.mjs desde",
+    "serve": "npx --yes serve -l 8000 ."
+  }
+}
